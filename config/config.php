@@ -20,6 +20,7 @@ try {
 
     echo "Connexion réussie !";
 
+
 } catch(PDOException $e){
 
     die("Erreur de connexion : " . $e->getMessage());
